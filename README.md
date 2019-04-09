@@ -1,5 +1,7 @@
 # <img src="https://raw.githubusercontent.com/swagger-api/swagger.io/wordpress/images/assets/SWU-logo-clr.png" height="80">
 
+This is a fork of https://github.com/swagger-api/swagger-ui which resolves non-dev security vulnerabilities by using `@itentialopensource/remarkable` instead of `remarkable`. These modifications are necessary to resolve upstream security vulnerabilities. This is meant to be a temporary solution until `swagger-ui` resolves its vulnerabilities.
+
 [![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)
 
 **👉🏼 Want to score an easy open-source contribution?** Check out our [Good first issue](https://github.com/swagger-api/swagger-ui/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%22) label.

@@ -23,6 +23,7 @@
     "dev": "npm-run-all --parallel hot-server",
     "watch": "webpack --config webpack-watch.config.js --watch --progress",
     "hot-server": "webpack-dev-server --host 0.0.0.0 --config webpack-hot-dev-server.config.js --inline --hot --progress --content-base dev-helpers/",
+    "deploy": "npm publish --registry=http://registry.npmjs.org --access=public",
     "deps-license": "license-checker --production --csv --out $npm_package_config_deps_check_dir/licenses.csv && license-checker --development --csv --out $npm_package_config_deps_check_dir/licenses-dev.csv",
     "deps-size": "webpack -p --config webpack.check.js --json | webpack-bundle-size-analyzer >| $npm_package_config_deps_check_dir/sizes.txt",
     "deps-check": "run-s deps-license deps-size",
