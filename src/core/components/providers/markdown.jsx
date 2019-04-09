@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Remarkable from "remarkable"
+import Remarkable from "@itentialopensource/remarkable"
 import DomPurify from "dompurify"
 import cx from "classnames"
 
